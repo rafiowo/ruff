@@ -1,9 +1,11 @@
 import pfp from './assets/pfp101.jpg';
+import bgvideo from './assets/ascii-shi.mp4';
 
 function MainBody(){
 
     return(
         <>
+        <video className="bg-video" src={bgvideo} autoPlay loop muted playsInline></video>
         <div className="main-body">
             <h3>Hey, I'm Rafi</h3>
         </div>
