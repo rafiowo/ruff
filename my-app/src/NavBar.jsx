@@ -1,6 +1,7 @@
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import pfp101 from './assets/pfp101.jpg';
+import SleepingCat from './SleepingCat';
 
 function NavBar() {
 
@@ -13,6 +14,7 @@ function NavBar() {
             <a className = "nav-link-2"href="/about">Work</a>
             <a className="nav-link-3"href="/contact">About</a>
             <a className="nav-link-4"href="/contact">Contact</a>
+            <SleepingCat />
 
         </div>
         </>

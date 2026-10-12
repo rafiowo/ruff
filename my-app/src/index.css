@@ -124,6 +124,27 @@ code {
   display: flex;
 }
 
+.sleeping-cat {
+  image-rendering: pixelated;
+  flex-shrink: 0;
+}
+
+/* the floating Zzz above the cat */
+.cat-z {
+  font-family: var(--mono);
+  opacity: 0;
+  animation: cat-snore 3s ease-in-out infinite;
+}
+.cat-z2 {
+  animation-delay: 0.6s;
+}
+
+@keyframes cat-snore {
+  0%   { opacity: 0; transform: translateY(0); }
+  30%  { opacity: 0.9; }
+  100% { opacity: 0; transform: translateY(-3px); }
+}
+
 a:link,
 a:visited,
 a:hover,
@@ -175,10 +196,12 @@ a:active {
   border-radius: 20%;
   background: rgb(130, 129, 131);
   z-index: -1;
-
 }
-
 .sexy::before{
   filter: blur(1rem);
   opacity: 89;
 }
+.sexy:hover{
+  opacity: 100;
+}
+
