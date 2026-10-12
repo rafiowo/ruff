@@ -154,3 +154,31 @@ a:active {
   margin: 32px;
   margin-top: -32px;
 }
+.larping-shi img{
+  width: 260px;
+  height: 260px;
+  border: white 2px solid;
+  border-radius: 20%;
+  margin-left: 820px;
+  margin-top: -190px;
+  position: relative;
+
+}
+
+.sexy::after, .sexy::before{
+  content: '';
+  position: absolute;
+  height: 267px;
+  width: 257px;
+  margin-left: 291px;
+  margin-top: -315px;
+  border-radius: 20%;
+  background: rgb(130, 129, 131);
+  z-index: -1;
+
+}
+
+.sexy::before{
+  filter: blur(1rem);
+  opacity: 89;
+}
