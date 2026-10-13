@@ -117,6 +117,10 @@ code {
   margin: 20px 0;
   gap: 20px;
 
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
 }
 .nav-link-2{
   margin-left: auto;
@@ -214,4 +218,45 @@ a:active {
   object-fit: cover;
   z-index: -1;
   opacity: 0.19;
+}
+
+.big-guy{
+  font-family: Helvetica, sans-serif;
+  font-size: 32px;
+  margin-right: 980px;
+  margin-top: 300px;
+}
+
+.card-1{
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  border: 1px solid var(--code-bg);
+  border-radius: 24px;
+  padding: 32px;
+  margin: 30px;
+  background: radial-gradient(120% 120% at 100% 0%, var(--accent-bg) 0%, var(--code-bg) 55%, var(--bg) 100%);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.card-1.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.card-1 h2{
+  margin: 0 0 24px;
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: var(--text-h);
+}
+.card-1 p{
+  margin: 0;
+  max-width: 560px;
+  font-size: 19px;
+  line-height: 160%;
+  color: var(--text);
 }
