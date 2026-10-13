@@ -28,7 +28,7 @@ function Works(){
 
     return(
         <>
-        <div className="big-guy">
+        <div id= "works" className="big-guy">
 
         </div>
         <div ref={card1Ref} className={`card-1${card1Visible ? ' visible' : ''}`}>
