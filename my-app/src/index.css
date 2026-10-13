@@ -107,6 +107,15 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+html{
+scroll-behavior: smooth;
+}
+
+#works, #skills, #contact {
+  scroll-margin-top: 100px;
+}
+
 .navbar {
   font-family: helvetica, sans-serif;
   display: flex;
@@ -270,4 +279,29 @@ a:active {
   font-size: 19px;
   line-height: 160%;
   color: var(--text);
+}
+
+.header-1{
+  text-align: left;
+  margin: 80px 30px 0;
+}
+.frontend + .header-1{
+  margin-top: 24px;
+}
+.frontend{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 12px;
+  margin: 16px 30px;
+}
+.frontend p{
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
 }

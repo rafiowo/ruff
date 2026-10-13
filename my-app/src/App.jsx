@@ -1,6 +1,7 @@
 import NavBar from './NavBar';
 import MainBody from './MainBody'
 import Works from './Works'
+import Skills from './Skills'
 
 function App(){
   return(
@@ -8,6 +9,7 @@ function App(){
     <NavBar/>
     <MainBody/>
     <Works/>
+    <Skills/>
     </>
   );
 }
