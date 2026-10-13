@@ -283,10 +283,7 @@ a:active {
 
 .header-1{
   text-align: left;
-  margin: 80px 30px 0;
-}
-.frontend + .header-1{
-  margin-top: 24px;
+  margin: 0 30px;
 }
 .frontend{
   display: flex;
@@ -296,12 +293,8 @@ a:active {
   margin: 16px 30px;
 }
 .frontend p{
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid var(--code-bg);
   border-radius: 20px;
   padding: 10px 20px;
   color: var(--text);
-  background: rgba(255, 255, 255, 0.06);
-  backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
 }

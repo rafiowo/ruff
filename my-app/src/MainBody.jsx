@@ -1,4 +1,6 @@
 import pfp from './assets/pfp101.jpg';
+import pfp1 from './assets/IMG_5385.png'
+import pfp2 from './assets/IMG_7319.png'
 import bgvideo from './assets/ascii-shi.mp4';
 
 function MainBody(){
