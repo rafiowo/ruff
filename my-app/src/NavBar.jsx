@@ -11,8 +11,8 @@ function NavBar() {
             <img src={pfp101} alt="pfp"></img>
             <a href="https://github.com/rafiowo"><FaGithub/></a>
             <a href="https://www.linkedin.com/in/rafiowo/"><FaLinkedin/></a>
-            <a className = "nav-link-2"href="/about">Work</a>
-            <a className="nav-link-3"href="/contact">About</a>
+            <a className = "nav-link-2"href="/work">Works</a>
+            <a className="nav-link-3"href="/about">Skills</a>
             <a className="nav-link-4"href="/contact">Contact</a>
             <SleepingCat />
 
